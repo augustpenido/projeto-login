@@ -11,9 +11,78 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     height: 100vh;
     background-image: linear-gradient(to top, var(--cor3), var(--cor2), var(--cor1));
+}
+
+main {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    background-color: #f0e5fc;
+    border-radius: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div#img {
+    height: 200px;
+    background: url(../imagens/galaxy.jpg) center center/cover no-repeat;
+    border-radius: 15px 15px 0 0;
+}
+
+div#login {
+    height: 300px;
+    padding: 0 10px;
+}
+
+div#login>h1 {
+    text-align: center;
+    padding: 20px;
+    color: var(--cor3);
+}
+
+div#login>form>label {
+    display: block;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: var(--cor0);
+    border-radius: 8px;
+}
+
+div#login>form>label>span {
+    padding: 0 5px;
+    transform: translate(2px, 5px);
+}
+
+div#login>form>label>input {
+    height: 25px;
+    width: 233px;
+    padding-left: 3px;
+    transform: translate(0, -2px);
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+    background-color: #f0e5fc;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.650);
+}
+
+div#login>form>input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--cor0);
+    border: none;
+    font-size: 0.9em;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.650);
+}
+
+div#login>form>input:hover {
+    background-color: #b24bdb;
 }
