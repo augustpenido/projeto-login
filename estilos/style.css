@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-    --cor0: #bb9ed9;
+    --cor0: #bd78db;
     --cor1: #8436a3;
     --cor2: #482173;
     --cor3: #171340;
@@ -26,32 +26,37 @@ main {
     width: 100vw;
 }
 
-section {
+section#login {
     position: absolute;
     width: 300px;
     margin: auto;
     background-color: #f0e5fc;
     border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.500
+    );
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 section#login>div#img {
+    display: block;
     height: 200px;
     background: url(../imagens/galaxy.jpg) center center/cover no-repeat;
     border-radius: 15px 15px 0 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.500);
 }
 
 section#login>div#form {
-    height: 300px;
-    padding: 0 10px;
+    display: block;
+    padding: 0 10px 10px 10px;
 }
 
 section#login>div#form>h1 {
     text-align: center;
     padding: 20px;
     color: var(--cor3);
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.459);
 }
 
 section#login>div#form>form>label {
@@ -61,6 +66,8 @@ section#login>div#form>form>label {
     margin-bottom: 15px;
     background-color: var(--cor0);
     border-radius: 8px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.500
+    );
 }
 
 section#login>div#form>form>label:hover {
@@ -81,10 +88,9 @@ section#login>div#form>form>label>input {
     border: none;
     outline: 0;
     background-color: #f0e5fc;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.650);
 }
 
-section#login>div#form>form>input {
+section#login>div#form>form>div.input>input {
     width: 100%;
     margin-bottom: 15px;
     padding: 12px;
@@ -92,9 +98,14 @@ section#login>div#form>form>input {
     background-color: var(--cor0);
     border: none;
     font-size: 0.9em;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.650);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.500
+    );
 }
 
-section#login>div#form>form>input:hover {
+section#login>div#form>form>div.input>input:hover {
     background-color: #b24bdb;
+}
+
+div.input {
+    margin-top: 50px;
 }
