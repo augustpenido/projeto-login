@@ -7,23 +7,37 @@
 
     section#login {
         width: 75%;
-        height: 450px;
+        height: 400px;
     }
 
-    section#login>div#img {
+    div#img {
         float: left;
         width: 40%;
         height: 100%;
         border-radius: 15px 0 0 15px;
     }
 
-    section#login>div#form {
-        float: right;
+    div#form {
+        float: left;
         width: 60%;
     }
 
-    section#login>div#form>form>label>input {
-        width: 290px;
+    div#form h1 {
+        padding: 30px 0;
+    }
+
+    div#form label {
+        width: 80%;
+    }
+
+    div.input {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    div.input input {
+        margin-bottom: 30px;
     }
 }
 
@@ -37,16 +51,34 @@
         height: 450px;
     }
 
-    section#login>div#img {
-        float: left;
-        width: 50%;
-        height: 100%;
-        border-radius: 15px 0 0 15px;
-    }
-
-    section#login>div#form {
+    div#img {
         float: right;
         width: 50%;
+        height: 100%;
+        border-radius: 0 15px 15px 0;
+    }
+
+    div#form {
+        float: right;
+        width: 50%;
+    }
+
+    div#form h1 {
+        padding: 50px 0;
+    }
+
+    div#form label {
+        width: 80%;
+    }
+
+    div.input {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    div.input input {
+        margin-bottom: 30px;
     }
 
 }
