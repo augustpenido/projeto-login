@@ -58,6 +58,7 @@ div#form {
 div#form h1 {
     text-align: center;
     font-weight: 700;
+    font-size: 1.3em;
     padding: 20px;
     color: var(--cor3);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
@@ -110,7 +111,7 @@ div.input > input {
     border-radius: 8px;
     background-color: var(--cor0);
     border: none;
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 500;
     color: var(--cor3);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.500);
