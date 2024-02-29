@@ -26,18 +26,24 @@
         padding: 30px 0;
     }
 
-    div#form label {
+    div#form form > label {
         width: 80%;
+    }
+
+    div.checkbox {
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: left;
     }
 
     div.input {
         width: 80%;
         margin: auto;
-        margin-top: 50px;
     }
 
     div.input input {
-        margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
 
@@ -67,18 +73,24 @@
         padding: 50px 0;
     }
 
-    div#form label {
+    div#form form > label {
         width: 80%;
+    }
+
+    div.checkbox {
+        display: block;
+        width: 80%;
+        margin: auto;
+        text-align: left;
     }
 
     div.input {
         width: 80%;
         margin: auto;
-        margin-top: 50px;
     }
 
     div.input input {
-        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
 }

@@ -52,7 +52,7 @@ div#img {
 
 div#form {
     display: block;
-    padding: 0 10px 10px 10px;
+    padding: 0 10px;
 }
 
 div#form h1 {
@@ -63,11 +63,11 @@ div#form h1 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.459);
 }
 
-div#form label {
+div#form > form > label {
     display: block;
     height: 40px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     background-color: var(--cor0);
     border-radius: 8px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.500);
@@ -81,7 +81,7 @@ div#form span {
     transform: translateX(3px);
 }
 
-div#form label>input {
+div#form > form > label > input {
     height: 28px;
     width: calc(100% - 45px);
     padding-left: 3px;
@@ -92,11 +92,16 @@ div#form label>input {
     transform: translateY(-8px);
 }
 
-div.input {
-    margin-top: 30px;
+div.checkbox {
+    font-size: .8em;
+    font-weight: 400;
 }
 
-div.input>input {
+div.input {
+    margin-top: 15px;
+}
+
+div.input > input {
     display: block;
     width: 100%;
     margin: auto;
